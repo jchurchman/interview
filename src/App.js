@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
+
+// import ButtonBarContainer from './display/ButtonBarContainer'
+// import ParameterView from './display/ParameterView'
 import './App.css';
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* <ButtonBarContainer /> */}
+      {/* <ParameterView /> */}
+
     </div>
   );
 }

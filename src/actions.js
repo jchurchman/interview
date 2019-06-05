@@ -1,16 +1,16 @@
 
-export const add = {
-  type: 'ADD'
+export const add = () => {
+  console.log('ADD')
 }
 
-export const remove = {
-  type: 'REMOVE',
+export const remove = () => {
+  console.log('REMOVE',)
 }
 
-export const open = {
-  type: 'OPEN',
+export const open = () => {
+  console.log('OPEN',)
 }
 
-export const close = {
-  type: 'CLOSE',
+export const close = () => {
+  console.log('CLOSE',)
 }

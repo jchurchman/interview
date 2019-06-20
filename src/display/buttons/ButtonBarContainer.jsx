@@ -12,4 +12,4 @@ const ButtonContainer = ((Component) => (
   />
 ))
 
-export default ButtonContainer
+export default ButtonContainer(ButtonBar)
